@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "build": "echo 'No build steps required'"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "build": "echo 'No build steps required'",
+  "postinstall": "npm install pg"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
